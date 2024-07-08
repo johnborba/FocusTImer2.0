@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: clamp(40%, 1% + 2vw, 62,5%);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  display: flex;
+  height: 100vh;
+  place-content: center;
+}
+
+#app {
+  margin: auto;
+  justify-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+#timer {
+  color: #323238;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.6rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#controls {
+  display: inline-flex;
+  height: 4.8rem;
+  align-items: flex-start;
+  gap: 4rem;
+  flex-shrink: 0;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: #323238;
+  cursor: pointer;
+  
+
+  font-size: 4.8rem;
+}
+
+#audioControls {
+  width: 30.8rem;
+  height: 33.6rem;
+  margin: auto;
+  
+}
+
+.Forest {
+  margin-right: 2.9rem;
+  margin-bottom: 2.2rem;
+}
+
+.coffee {
+  margin-right: 2.9rem;
+}
